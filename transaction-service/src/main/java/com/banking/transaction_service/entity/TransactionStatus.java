@@ -1,9 +1,10 @@
 package com.banking.transaction_service.entity;
 
 public enum TransactionStatus {
-    DEPOSIT,
-    WITHDRAW,
-    PAYMENT,
-    TRANSFER,
-    PROCESSING
+    PENDING,
+    PROCESSING,
+    PENDING_VERIFICATION,
+    COMPLETED,
+    FAILED,
+    FLAGGED
 }
